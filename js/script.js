@@ -42,7 +42,7 @@ document.querySelector('.check').addEventListener('click', function () {
 
     //when anyone win a game
   } else if (won) {
-    message.innerHTML = `🎴 You Already Won, <br> <span style = "margin-left: 50px;">Please  Play Again.</span>`;
+    message.innerHTML = `🎴 You Already Won, <br> <span style = "margin-left: 45px;">Please  Play Again.</span>`;
 
     //When the guess too close
   } else if (difference === 1 || difference === 2 || difference === -1 || difference === -2) {

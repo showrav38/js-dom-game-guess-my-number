@@ -16,6 +16,7 @@ let defaultScore = 20;
 let defaultHighscore = 0;
 let won = false;
 
+//function for displaye the message
 const displayMessage = function(gameMessage){
   message.textContent = gameMessage;
 }
